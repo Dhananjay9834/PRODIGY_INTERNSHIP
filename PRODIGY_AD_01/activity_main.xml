@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#151515"
+    android:padding="12dp">
+
+    <!-- Display -->
+    <TextView
+        android:id="@+id/tvDisplay"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="200dp"
+        android:gravity="bottom|end"
+        android:text="0"
+        android:textColor="#F4F1F1"
+        android:background="#222121"
+        android:textSize="32sp"
+        android:maxLines="2"
+        android:padding="16dp"/>
+
+
+    <!-- Buttons -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gl"
+        android:columnCount="4"
+        android:rowCount="5"
+        android:layout_marginTop="150dp">
+
+        <Button android:text="C" android:layout_marginLeft="5dp"/>
+
+        <Button android:text="⌫"  android:layout_marginLeft="5dp"/>
+        <Button android:text="÷"  android:layout_marginLeft="5dp"/>
+        <Button android:text="×"  android:layout_marginLeft="5dp"/>
+
+        <Button android:text="1"  android:layout_marginLeft="5dp"/>
+        <Button android:text="2"  android:layout_marginLeft="5dp"/>
+        <Button android:text="3"  android:layout_marginLeft="5dp"/>
+        <Button android:text="-"  android:layout_marginLeft="5dp"/>
+
+        <Button android:text="4"  android:layout_marginLeft="5dp"/>
+        <Button android:text="5"  android:layout_marginLeft="5dp"/>
+        <Button android:text="6"  android:layout_marginLeft="5dp"/>
+        <Button android:text="+"  android:layout_marginLeft="5dp"/>
+
+        <Button android:text="7"  android:layout_marginLeft="5dp"/>
+        <Button android:text="8"  android:layout_marginLeft="5dp"/>
+        <Button android:text="9"  android:layout_marginLeft="5dp"/>
+        <Button android:text="%"  android:layout_marginLeft="5dp"/>
+
+        <Button android:text="0" android:layout_columnSpan="2" android:layout_marginLeft="5dp"/>
+        <Button android:text="."  android:layout_marginLeft="5dp"/>
+        <Button android:text="=" android:textSize="27dp" android:layout_marginLeft="5dp"/>
+
+    </GridLayout>
+
+</LinearLayout>
