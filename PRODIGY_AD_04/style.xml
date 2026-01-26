@@ -1,0 +1,11 @@
+<resources>
+    <style name="GameCell">
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">90dp</item>
+        <item name="android:textSize">34sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:backgroundTint">#FFFFFF</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+</resources>
