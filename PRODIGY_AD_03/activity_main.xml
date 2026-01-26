@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="#F6F4F4">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stopwatch"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="25dp"/>
+
+    <TextView
+        android:id="@+id/tvTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00:00"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="174dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="320dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnReset"
+            android:layout_width="82dp"
+            android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Start or Pause"
+            android:src="@drawable/reset__icon" />
+
+        <ImageButton
+            android:id="@+id/btnStartPause"
+            android:layout_width="73dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Reset"
+            android:src="@drawable/play_icon" />
+    </LinearLayout>
+
+</LinearLayout>
